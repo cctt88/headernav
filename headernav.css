@@ -1,0 +1,35 @@
+@charset 'utf-8';
+body {
+  text-align: center;
+  margin: 0;
+}
+.nav {
+  margin: 0;
+  position: absolute;
+  top: 0
+  right: 0;
+}
+ul {
+  text-align: center;
+  position: relative; /* absoluteでの指定がわからない */
+  left: 500px;
+}
+li {
+  border-top: #1e3784 2px solid;
+  width: 82px;
+  list-style:none;
+  float: left;
+  margin-left: 1px;
+}
+li a {
+  text-decoration: none;
+  box-sizing: border-box;
+  width: 82px;
+  display: block;
+  color: #1e3784;
+}
+li a:hover {
+  color: #fff;
+  background: #1e3784;
+  transition: 0.5s ease;
+}
